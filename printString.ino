@@ -1,4 +1,7 @@
 #define SIZE 32 
+#include <Adafruit_GFX.h> // https://github.com/adafruit/Adafruit-GFX-Library
+#include <Max72xxPanel.h> // https://github.com/markruys/arduino-Max72xxPanel
+
 void display(String sentence)
 {
   String checkStr = "1ifl ";
