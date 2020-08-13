@@ -1,8 +1,9 @@
+#define SIZE 32 
 void display(String frase)
 {
   int tam = frase.length();
   int min = -(6 * tam);
-  for (int a = 32; a >= min; a--)
+  for (int a = SIZE; a >= min; a--)
   {
     int posX = a;
     for (int i = 0; i < tam; i++)
